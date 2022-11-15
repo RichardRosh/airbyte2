@@ -6,7 +6,7 @@ materialized = "table"
 
 with customers as (
     
-    SELECT id as Health Service Area,Hospital County,Zip Code - 3 digits,CONCAT(Health Service Area, ' ', Zip Code - 3 digits) AS Health Service Area FROM hospital_inpatient_discharges_sparcs_de_identified_2015
+    SELECT id as Health_Service_Area,Hospital_Counrt,Zip_Code,CONCAT(Health_Service_Area, ' ', Zip_Code) Service_Area_Code FROM testtable
 )
 
-select * from hospital_inpatient_discharges_sparcs_de_identified_2015
+select * from testable
