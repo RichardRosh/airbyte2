@@ -10,5 +10,5 @@ models:
         tests:
           - unique
           - not_null
-      - name: first_name
-      - name: last_name
+      - name: Health_Service_Area
+      - name: Zip_Code
